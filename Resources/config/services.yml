@@ -1,0 +1,6 @@
+# src/MESD/UniversalAuthenticatorBundle/Resources/config/services.yml
+
+services:
+    universal.authentication.provider.universal_auth:
+        class:  MESD\UniversalAuthenticatorBundle\Security\Authentication\UniversalAuthenticationProvider
+        arguments: [ @security.user_checker, "", ""]

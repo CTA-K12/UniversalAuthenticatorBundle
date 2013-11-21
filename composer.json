@@ -1,0 +1,10 @@
+{
+    "name": "mesd/universal-authenticator-bundle",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "description": "Universal Authenticator Bundle",
+    "autoload": {
+        "psr-0": { "MESD\\UniversalAuthenticatorBundle": "" }
+    },
+    "target-dir": "MESD/UniversalAuthenticatorBundle"
+}

@@ -1,0 +1,3 @@
+mesd_security_security_homepage:
+    pattern:  /services
+    defaults: { _controller: MESDUniversalAuthenticatorBundle:Default:index }
